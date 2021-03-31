@@ -6,33 +6,33 @@ public class Person {
 	private String lastName;
 	private String phoneNumber;
 	
-	public Person(String first, String last, String phone) {
-		this.firstName = first;
-		this.lastName = last;
-		this.phoneNumber = phone;
+	public Person(String firstName, String lastName, String phoneNumber) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.phoneNumber = phoneNumber;
 	}
 
-	public String getFirst() {
+	public String getFirstName() {
 		return firstName;
 	}
 
-	public String getLast() {
+	public String getLastName() {
 		return lastName;
 	}
 
-	public String getPhone() {
+	public String getPhoneNumber() {
 		return phoneNumber;
 	}
 
-	public void setFirst(String firstName) {
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 
-	public void setLast(String lastName) {
+	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 
-	public void setPhone(String phoneNumber) {
+	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
 
